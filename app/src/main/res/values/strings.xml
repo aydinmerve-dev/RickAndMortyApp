@@ -5,10 +5,12 @@
     <string name="connect_error">Unable to connect, please check your internet connection</string>
     <string name="dot" translatable="false">&#160;•&#160;</string>
     <string name="last_episode">Last Episode</string>
-    <string name="episode">episode</string>
+    <string name="episodes">episodes</string>
     <string name="location">Location</string>
     <string name="origin">Origin:&#160;</string>
     <string name="last_known">Last known:&#160;</string>
+    <string name="name">Name:&#160;</string>
+    <string name="air_date">Air Date:&#160;</string>
     <string name="no_results_found">No results found!</string>
     <string name="characters">Characters</string>
     <string name="select_status">Select status</string>

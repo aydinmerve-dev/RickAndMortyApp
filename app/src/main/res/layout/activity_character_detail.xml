@@ -118,7 +118,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:text="@{viewModel.character.lastSeenEpisodeName}"
+                android:text="@{@string/name + viewModel.character.lastSeenEpisodeName}"
                 app:layout_constraintEnd_toEndOf="@+id/appCompatTextView"
                 app:layout_constraintStart_toStartOf="@+id/appCompatTextView"
                 app:layout_constraintTop_toBottomOf="@+id/appCompatTextView3" />
@@ -129,7 +129,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:text="@{viewModel.character.lastSeenEpisodeAirDate}"
+                android:text="@{@string/air_date + viewModel.character.lastSeenEpisodeAirDate}"
                 app:layout_constraintEnd_toEndOf="@+id/appCompatTextView"
                 app:layout_constraintStart_toStartOf="@+id/appCompatTextView"
                 app:layout_constraintTop_toBottomOf="@+id/appCompatTextVie4" />
@@ -140,7 +140,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:text="@{viewModel.character.episodeCount + ` ` + @string/episode}"
+                android:text="@{viewModel.character.episodeCount + ` ` + @string/episodes}"
                 app:layout_constraintEnd_toEndOf="@+id/appCompatTextView"
                 app:layout_constraintStart_toStartOf="@+id/appCompatTextView"
                 app:layout_constraintTop_toBottomOf="@+id/appCompatTextVie5" />
